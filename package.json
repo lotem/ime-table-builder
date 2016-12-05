@@ -1,0 +1,8 @@
+{
+  "name": "ime-table-builder",
+  "version": "1.0.0",
+  "description": "Generates IME tables with code.",
+  "main": "index.js",
+  "author": "居戎氏",
+  "license": "MIT"
+}
