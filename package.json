@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "居戎氏",
   "license": "MIT",
+  "repository": "kionz/ime-table-builder",
   "scripts": {
     "build": "babel src -d lib",
     "test": "babel-tape-runner 'tests/*.js'"
