@@ -4,5 +4,15 @@
   "description": "Generates IME tables with code.",
   "main": "index.js",
   "author": "居戎氏",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "babel-tape-runner 'tests/*.js'"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-tape-runner": "^2.0.1",
+    "tape": "^4.6.3"
+  }
 }
